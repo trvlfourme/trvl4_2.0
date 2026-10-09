@@ -1,0 +1,6 @@
+{
+  "name": "trvl4.me — Умный планировщик путешествий",
+  "description": "Сервис для планирования поездок с помощью ИИ. Готовые маршруты, автопутешествия по России и СНГ, работа на удаленке, рекомендации по жилью, транспорту и бюджету.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

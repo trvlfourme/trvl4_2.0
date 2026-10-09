@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@media print {
+  header, footer, .print\:hidden {
+    display: none !important;
+  }
+  body {
+    background-color: #ffffff !important;
+    color: #0f172a !important;
+    font-size: 11pt;
+  }
+  .max-w-6xl, .max-w-7xl {
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  /* Avoid breaking days inside cards */
+  .bg-white.rounded-3xl {
+    break-inside: avoid;
+    box-shadow: none !important;
+    border: 1px solid #cbd5e1 !important;
+    margin-bottom: 1.5rem !important;
+  }
+}
