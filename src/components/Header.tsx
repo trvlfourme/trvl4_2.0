@@ -1,5 +1,5 @@
 import React from 'react';
-import { Compass, Bookmark, PlusCircle, Share2, Settings, Sparkles, MapPin, Download } from 'lucide-react';
+import { Compass, Bookmark, PlusCircle, Share2, Settings, Sparkles, MapPin } from 'lucide-react';
 
 interface HeaderProps {
   savedCount: number;
@@ -76,16 +76,6 @@ export const Header: React.FC<HeaderProps> = ({
           >
             <Settings className="w-4 h-4" />
           </button>
-
-          <a
-            href="/api/download-project"
-            download="trvl4me-project.zip"
-            className="inline-flex items-center gap-1.5 text-xs font-semibold text-emerald-700 bg-emerald-50 hover:bg-emerald-100 border border-emerald-200/80 px-2.5 py-1.5 rounded-lg transition-colors shadow-xs"
-            title="Скачать полный архив проекта (.zip) для GitHub / Amvera"
-          >
-            <Download className="w-3.5 h-3.5 text-emerald-600" />
-            <span className="hidden sm:inline">Скачать .zip</span>
-          </a>
         </div>
       </div>
     </header>
